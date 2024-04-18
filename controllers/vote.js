@@ -1,10 +1,14 @@
 const fs = require("fs").promises;
 const parseBody = require("../appModules/http-utils/parse-body");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const { config, createRating, updateRating } = require("../appModules/rating");
 =======
 const { createRating, updateRating } = require("../appModules/rating");
 const config = require("../appModules/rating");
+>>>>>>> Stashed changes
+=======
+const { config, createRating, updateRating } = require("../appModules/rating");
 >>>>>>> Stashed changes
 
 async function voteRouteController(req, res) {
